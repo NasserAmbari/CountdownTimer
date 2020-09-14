@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+@media (max-width:75em) {
+   html{
+      font-size: 60%;
+   }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width:61.25em){
+   html{
+      font-size: 58%;
+   }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width:28.75em){
+   html{
+      font-size: 55%;
+   }
+}
+
+body{
+   background-image: url("../public/images/Background.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+   font-family: 'Space Mono', monospace;
+}
+
+.container{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width:100vw;
+   height: 100vh;
+   color: white;
+}
+
+h1{
+   margin-bottom: 2rem;
+   font-size: 2.4rem;
+}
+
+.countdown{
+   display:flex;
+}
+
+.countainer-time{
+   margin:0 2rem;
+}
+
+h6{
+   text-align: center;
+   font-size: 2.4rem;
+   margin-bottom:1rem;
+}
+
+.text-countdownTimer{
+   font-size: 1rem;
+   text-align: center;
+}
