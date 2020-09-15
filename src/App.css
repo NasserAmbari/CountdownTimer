@@ -27,7 +27,7 @@
 }
 
 body{
-   background-image: url("../public/images/Background.jpg");
+   background-image: url("assets/Background.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
